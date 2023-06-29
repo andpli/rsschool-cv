@@ -1,6 +1,5 @@
 # **Andrei Pliner**
 
-
 ## **Software Developer**
 Proficient Developer with 15+ years in IT company. Experienced in organizing effective development  processes and procedures. My goal is to always improve the quality of a software and to satisfy the  customer with perfect software. I have experience in software for the UK Housebuilders area (Bill of  Quantities, House Sales, Land Appraisal, VAP, Customer Care etc.). I am ready to learn new technologies  and programming languages.
 
