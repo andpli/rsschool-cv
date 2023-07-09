@@ -1,9 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+ }
+
 body {
   background-color: powderblue;
+  font-family: sans-serif;
 }
-h1 {
-  color: blue;
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: sans-serif;
 }
-p {
-  color: red;
+
+img {
+  max-width: 100%;
+  height: auto;
 }
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  padding: 0 0 10px;
+}
+
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+ 
+}
+
+.header {
+  background: lightblue;
+  padding: 45px;
+  position: fixed;
+  height: 88vh;
+}
+
+.header .pics {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.header .pics img {
+  width: 100%;
+}
+
+.header .name {
+  margin: 30px 0 ;
+}
+
+.header .name h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: darkblue;
+  margin: 20px 0 5px 0;
+ 
+}
+
+.header .name span {
+  color: rgb(35, 70, 177);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.header .main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header .main-nav ul li a {
+  color: darkblue;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  position: relative;
+  text-decoration: none;
+
+
+}
+
+.header .main-nav ul li a:hover,.header .main-nav ul li a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+
+.footer {
+  bottom: 20px;
+  position: absolute;
+}
+
+.footer span {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.footer ul {
+position: relative;
+display: inline;
+list-style: none;
+}
+
+.main-content {
+  background: #FFF;
+  width: 724px;
+}
+
+.main-content p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+} 
+
+.main-content section {
+  padding: 60px 70px;
+  position: relative;
+}
+
+
+.main-content section .section-header h2 {
+  color: darkblue;
+  display: inline-block;
+  font-family:  sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+
+}
+
+.right-side {
+  float: right!important;
+}
+
+.left-side {
+  float: left!important;
+}
+
+pre {
+  background-color: lightblue;
+  padding: 15px;
+ }
+
